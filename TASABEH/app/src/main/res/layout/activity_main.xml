@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.hp_pc.tasabeh.MainActivity">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/Azkaar">
+    <TextView
+
+        android:id="@+id/Azkaar"
+        android:text="أذكار الصباح والمساء"
+        style="@style/CategoryStyle"
+        android:textAlignment="center"
+        android:background="?android:attr/selectableItemBackground"
+        android:textColor="@color/MainMenu"/>
+</FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Mawqeet">
+    <TextView
+        android:id="@+id/Mawqeet"
+        style="@style/CategoryStyle"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="مواقيت الصلاة"
+        android:textAlignment="center"
+        android:textColor="@color/MainMenu"/>
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Azkaary_color">
+        <TextView
+            android:id="@+id/MyAzkhaar"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="أذكارى"
+            android:textAlignment="center"
+            android:textColor="@color/MainMenu"/>
+    </FrameLayout>
+</LinearLayout>
